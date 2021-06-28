@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 
-public class IdleTutorialGame : MonoBehaviour
+public class PrimaryGameCode : MonoBehaviour
 {
 
     //text boxes
