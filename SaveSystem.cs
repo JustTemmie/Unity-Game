@@ -137,7 +137,7 @@ public class SaveSystem : MonoBehaviour
         return System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
     }
 
-    public void ImportPlayer(IdleTutorialGame playerData)
+    public void ImportPlayer(PrimaryGameCode playerData)
     {
         using (StreamWriter writer = new StreamWriter(Application.persistentDataPath + savePath))
         {
